@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Laikipia University</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    
+    </head>
+    <body background="HDS.png">
+        <nav>
+            <a href="test.html"><img src="loggo.jpg"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">GOVERNANCE</a></li>
+                    <li><a href="">ACADEMICS</a></li>
+                    <li><a href="">STUDENT LIFE</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+            
+            </nav>
+            <div class="text-box"> 
+                <h1>World's biggest university</h1>
+                <p>Laikpia University is a world-class university which enrolls students nationally and internationally.<br>Its aim is to present 
+                    the best learning environment and learning for all students.
+                </p>
+                <a href=""class="hero-btn">Visit Us To Know More</a>
+        
+            </div>
+       
+<!------JavaScript for Toggle menu----->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0"
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px"
+            }
+        </script>
+        
+        </body>
+    
+    
+        
+    </html> 
